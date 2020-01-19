@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Vanilla Slideshow</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header></header>
+    <div id="main">
+      <h1>Vanilla Slideshow</h1>
+      <div class="vs-wrapper">
+        <div class="vs-slides-indicator">
+          <span class="vs-initial-slide">1</span>/<span
+            class="vs-final-slide"
+          ></span>
+        </div>
+        <div class="vs-left-arrow vs-arrow">
+          &lsaquo;
+        </div>
+        <div class="vs-outer-wrapper">
+          <div class="vs-images-wrapper">
+            <img
+              class="vs-img vs-img-dimensions"
+              src="https://picsum.photos/id/1035/1200/500"
+              alt=""
+            />
+            <img
+              class="vs-img vs-img-dimensions"
+              src="https://picsum.photos/id/100/1200/500"
+              alt=""
+            />
+            <img
+              class="vs-img vs-img-dimensions"
+              src="https://picsum.photos/id/1026/1200/500"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="vs-right-arrow vs-arrow">
+          &rsaquo;
+        </div>
+        <div class="vs-navigation"></div>
+      </div>
+    </div>
+    <footer></footer>
+    <template id="vs-navbtn-template">
+      <span class="nav-btn">&bull;</span>
+    </template>
+    <script src="js/script.js"></script>
+  </body>
+</html>
