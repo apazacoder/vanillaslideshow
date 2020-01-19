@@ -58,9 +58,9 @@ window.addEventListener("load", function() {
 
   function slide(direction) {
     console.log("direction", direction);
-    if (direction === "left") {
+    if (direction === "right") {
       current = current + 1 === imagesQty ? 0 : current + 1;
-    } else if (direction === "right") {
+    } else if (direction === "left") {
       current = current === 0 ? imagesQty - 1 : current - 1;
     }
     slideTo(current);
