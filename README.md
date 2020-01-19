@@ -1,2 +1,2 @@
-# vanillaslideshow
+# Vanilla Slideshow
 Simple slideshow with no libraries and no frameworks
