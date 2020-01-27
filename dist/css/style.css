@@ -2,48 +2,35 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font: 1em Arial, sans-serif;
-}
+  font: 1em Arial, sans-serif; }
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 h1 {
-  font-size: 1.5rem;
-  text-align: center;
-}
+  font-size: 1.6rem;
+  text-align: center; }
 
 #main {
   width: 90%;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
 .vs-wrapper {
-  position: relative;
-}
+  position: relative; }
 
 .vs-outer-wrapper {
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 .vs-images-wrapper {
-  -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
-  position: relative;
-}
-
-.vs-images-wrapper .vs-img {
-  display: inline-block;
-  top: 0;
-  position: absolute;
-}
-
-.vs-images-wrapper .vs-img-dimensions {
-  width: 100%;
-  height: auto;
-}
+  position: relative; }
+  .vs-images-wrapper .vs-img {
+    display: inline-block;
+    top: 0;
+    position: absolute; }
+  .vs-images-wrapper .vs-img-dimensions {
+    width: 100%;
+    height: auto; }
 
 .vs-arrow {
   position: absolute;
@@ -51,20 +38,13 @@ h1 {
   color: white;
   font-size: 2.5rem;
   padding: 0.5rem;
-  z-index: 10;
-}
-
-.vs-arrow:hover {
-  cursor: pointer;
-}
-
-.vs-arrow.vs-left-arrow {
-  left: 10px;
-}
-
-.vs-arrow.vs-right-arrow {
-  right: 10px;
-}
+  z-index: 10; }
+  .vs-arrow:hover {
+    cursor: pointer; }
+  .vs-arrow.vs-left-arrow {
+    left: 10px; }
+  .vs-arrow.vs-right-arrow {
+    right: 10px; }
 
 .vs-slides-indicator {
   position: absolute;
@@ -72,8 +52,7 @@ h1 {
   left: 1rem;
   color: white;
   z-index: 20;
-  text-shadow: 1px 1px 2px #000;
-}
+  text-shadow: 1px 1px 2px #000; }
 
 .vs-navigation {
   position: absolute;
@@ -83,16 +62,9 @@ h1 {
   bottom: 0;
   color: white;
   font-size: 3rem;
-  text-shadow: 0 0 2px #000;
-}
-
-.vs-navigation .nav-btn {
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
-
-.vs-navigation .nav-btn:hover, .vs-navigation .nav-btn.is-active {
-  cursor: pointer;
-  color: greenyellow;
-}
-/*# sourceMappingURL=style.css.map */
+  text-shadow: 0 0 2px #000; }
+  .vs-navigation .nav-btn {
+    transition: 0.4s; }
+    .vs-navigation .nav-btn:hover, .vs-navigation .nav-btn.is-active {
+      cursor: pointer;
+      color: greenyellow; }
